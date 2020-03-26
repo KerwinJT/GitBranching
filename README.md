@@ -15,3 +15,9 @@
 * `git remote add origin remoteRepoUrl` - Link local repo to `remoteRepoUrl`
 * ` git pull origin master` - Pull `master` branch content from remote origin into current local branch
 * `git push origin master` - Push current local branch to `master` branch of remote origin
+
+### Branching Commands
+* `git branch` - List local branches, highlight checked-out branch
+* `git branch branchName` - Create branch `branchName`
+* `git checkout branchName` - Move to Branch `branchName`
+* `git push origin branchName` - Push local branch `branchName` to origin
