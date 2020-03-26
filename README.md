@@ -9,4 +9,5 @@
 * `git rm --cached fileName` - Remove fileName from commit index
 * `git log` - show commit history
 * `git log --oneline` - Show commit history (compact)
- 
+
+### Git (Missing information)
