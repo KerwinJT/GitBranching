@@ -1,9 +1,5 @@
 ## Git Branching
 
-### Overview
-
-Overview and cheat sheet of Git commands. Introduction to branching.
-
 ### Basic Command
 
 * `git init` - Initialize local git repository
@@ -14,8 +10,8 @@ Overview and cheat sheet of Git commands. Introduction to branching.
 * `git log` - show commit history
 * `git log --oneline` - Show commit history (compact)
 
-### Branching Commands
-* `git branch` - List local branches, highlight checked-out branch
-* `git branch branchName` - Create branch `branchName`
-* `git checkout branchName` - Move to Branch `branchName`
-* `git push origin branchName` - Push local branch `branchName` to origin
+### Remote Repository Commands
+
+* `git remote add origin remoteRepoUrl` - Link local repo to `remoteRepoUrl`
+* ` git pull origin master` - Pull `master` branch content from remote origin into current local branch
+* `git push origin master` - Push current local branch to `master` branch of remote origin
